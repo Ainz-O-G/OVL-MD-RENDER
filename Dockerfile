@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
 RUN apk add --no-cache git ffmpeg && \
-    git clone https://github.com/Ainz-O-G/OVL-MD-RENDER /ovl_bot
+    git clone https://github.com/Ainz-O-G/OVL-MD-r /ovl_bott
 
 WORKDIR /ovl_bot
 
