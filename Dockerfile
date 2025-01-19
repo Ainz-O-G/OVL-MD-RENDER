@@ -1,9 +1,9 @@
 FROM node:lts-alpine
 
 RUN apk add --no-cache git ffmpeg && \
-    git clone https://github.com/Ainz-O-G/OVL-MD-r /ovl-r
+    git clone https://github.com/Ainz-O-G/OVL-MD-r.git /ovl_bot
 
-WORKDIR /ovl-r
+WORKDIR /ovl_bot
 
 COPY package.json .
 
